@@ -1,0 +1,37 @@
+/* Inserisco questa fromattazione predefinita per tutto il foglio di stile */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Inserisco lo stile per l'header e i suoi componenti */
+#booleaner-top{
+    background-color: rgb(74, 132, 209);
+    background-image: url(/Users/manuelcaselli/Downloads/html-css-booleaner/img/pattern.png);
+    background-size: 35%;
+    background-position-y:20% ;
+}
+
+.header-text{
+    padding: 3px;
+}
+
+.header-text p{
+    font-size: medium;
+    color: lightslategray;
+}
+
+#booleaner {
+    padding-top: 40px;
+    padding-left: 5px;
+    width: 230px;
+    height: auto;
+}
+
+.author{
+    color:rgb(74, 132, 209);
+}
+
+.date{
+    font-size:small ;
+}
