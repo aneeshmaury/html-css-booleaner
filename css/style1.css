@@ -1,7 +1,7 @@
 /* Inserisco questa fromattazione predefinita per tutto il foglio di stile */
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0 px;
+    margin: 0px;
 }
 
 /* Inserisco lo stile per l'header e i suoi componenti */
@@ -34,4 +34,26 @@
 
 .date{
     font-size:small ;
+}
+
+/* Inserisco lo stile per il main */
+main{
+    padding: 3px;
+}
+
+.photo-description{
+    font-size: small;
+}
+
+.main-text{
+    padding: 10px 1px;
+}
+
+main > ul {
+    padding: 15px;
+   
+}
+
+.yellow-word{
+    background-color: yellow;
 }
