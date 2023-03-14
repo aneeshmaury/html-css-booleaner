@@ -61,9 +61,16 @@ main>ul {
     background-color: yellow;
 }
 
+/* Utilizzo il border-spacing per eliminare il bordo */
+
+table{
+    border-spacing: 0;
+}
+
 thead {
     background-color: lightskyblue;
     color: white;
+    text-align: left;
 }
 
 table {
