@@ -1,22 +1,24 @@
 /* Inserisco questa fromattazione predefinita per tutto il foglio di stile */
-*{
+* {
     padding: 0 px;
     margin: 0px;
 }
 
+
+
 /* Inserisco lo stile per l'header e i suoi componenti */
-#booleaner-top{
+#booleaner-top {
     background-color: rgb(74, 132, 209);
-    background-image: url(/Users/manuelcaselli/Downloads/html-css-booleaner/img/pattern.png);
+    background-image: url(../img/pattern.png);
     background-size: 35%;
-    background-position-y:20% ;
+    background-position-y: 20%;
 }
 
-.header-text{
+.header-text {
     padding: 3px;
 }
 
-.header-text p{
+.header-text p {
     font-size: medium;
     color: lightslategray;
 }
@@ -28,82 +30,85 @@
     height: auto;
 }
 
-.author{
-    color:rgb(74, 132, 209);
+.author {
+    color: rgb(74, 132, 209);
 }
 
-.date{
-    font-size:small ;
-}
-
-/* Inserisco lo stile per il main */
-main{
-    padding: 3px;
-}
-
-.photo-description{
+.date {
     font-size: small;
 }
 
-.main-text{
+
+
+/* Inserisco lo stile per il main */
+main {
+    padding: 3px;
+}
+
+.photo-description {
+    font-size: small;
+}
+
+.main-text {
     padding: 15px 1px;
 }
 
-main > ul {
-    padding: 15px;   
+main>ul {
+    padding: 15px;
 }
 
-.yellow-word{
+.yellow-word {
     background-color: yellow;
 }
 
-table{
-    border: 0;
-}
-
-thead{
+thead {
     background-color: lightskyblue;
     color: white;
 }
 
-table{
+table {
     padding: 10px 0px;
 }
-.row-blu{
+
+.row-blu {
     background-color: lightblue;
     padding: 0;
     margin: 0;
     border: 0;
 }
 
-th, td {
+th,
+td {
     width: 500px;
     border: 0;
-  } 
+}
+
+
 
 /* Inserisco lo stile del footer */
-footer{
+footer {
     padding: 0px 5px;
 }
-.text-ending{
+
+.text-ending {
     color: grey;
     font-weight: 800;
 }
 
-.footer-image-text{
+.footer-image-text {
     width: 200px;
     height: 130px;
     color: white;
     font-weight: 600;
-    padding-top: 20px;
+    padding : 20px 20px;
     margin-bottom: 10px;
 
 }
 
-#im1{
+#im1 {
     background-image: url(../img/monitor.jpg);
 }
-#im2{
+
+#im2 {
     background-image: url(../img/graph.jpg);
 }
-
