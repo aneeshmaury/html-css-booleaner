@@ -4,6 +4,12 @@
     margin: 0px;
 }
 
+/* Inserisco un div container per delimitare la pagina */
+/* Attualmente inserisco una misura in px per simulare lo screen richiesto, in altre situazioni utilizzerei fit-content o width : 100% */
+.container{
+    width: 1400px;;
+    height: auto;
+}
 
 
 /* Inserisco lo stile per l'header e i suoi componenti */
