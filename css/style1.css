@@ -81,5 +81,29 @@ th, td {
     border: 0;
   } 
 
+/* Inserisco lo stile del footer */
+footer{
+    padding: 0px 5px;
+}
+.text-ending{
+    color: grey;
+    font-weight: 800;
+}
 
+.footer-image-text{
+    width: 200px;
+    height: 130px;
+    color: white;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+#im1{
+    background-image: url(../img/monitor.jpg);
+}
+#im2{
+    background-image: url(../img/graph.jpg);
+}
 
